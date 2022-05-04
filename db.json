@@ -407,8 +407,7 @@
         "updatedAt": "2022-05-04T06:54:24.957Z"
     }
 ],
-    
-    
+
 "accessories":[
 
     {
@@ -616,8 +615,7 @@
     }
 
 ],
-    
-   
+
 "jwellery" :[
 
     {
@@ -847,9 +845,191 @@
     }
 
 
-], 
+],
+
+"shoes":[
+
+    {
+        "Name":"The Men's Store Mens Leather Pebbled Flat Sandals ",
+        "Manufacturer":"Fila",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1899881506.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"5",
+        "style Type": "Sandals",
+        "price" : "12000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "Name":"Keen Mens Newport H2 Buckle Closed Toe Sport Sandals ",
+        "Manufacturer":"sparks",
+        "imageurl":"https://img.shop.com/Image/260000/263300/263362/products/1782036570.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6",
+        "style Type": "Sandals",
+        "price" : "1000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+
+    {
+        "Name":"adidas Men's Adilette Shower Slide Sandals from Finish Line",
+        "Manufacturer":"adidas",
+        "imageurl":"https://img.shop.com/Image/240000/243400/243406/products/1826168959.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6.5",
+        "style Type": "Slipers",
+        "price" : "2000"
+    },
+    {
+        "Name":"Modelo 1925 Bottle Opener Flip Flop Sandals",
+        "Manufacturer":"modela",
+        "imageurl":"https://img.shop.com/Image/260000/269300/269358/products/1889385027.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"5.5",
+        "style Type": "Slippers",
+        "price" : "2000"
+    },
+    {
+        "Name":"Camper Men's Sports Sandals Men's Shoes",
+        "Manufacturer":"camper",
+        "imageurl":"https://img.shop.com/Image/240000/243400/243406/products/1852859957.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"5",
+        "style Type": "Slippers",
+        "price" : "3000"
+    },
+    {
+        "Name":"Fitkicks MFITK2-S-GRY Original Mens Edition Foldable Active Lifestyle Minimalist Footwear Barefoot Yoga Water Shoes, Grey - Small",
+        "Manufacturer":"fitkicks",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1897302972.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"5",
+        "style Type": "Yoga Shoes",
+        "price" : "3200"
+    },
+    {
+        "Name":"Regatta Mens Bali Flip Flops",
+        "Manufacturer":"Regata",
+        "imageurl":"https://img.shop.com/Image/280000/289900/289943/products/1910406688.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"5",
+        "style Type": "Flipflops",
+        "price" : "3200"
+    },
+
+    {
+        "Name":"Scripty Style Personalized Adult Flip Flops Multi",
+        "Manufacturer":"Relaxo",
+        "imageurl":"https://img.shop.com/Image/240000/243500/243545/products/1908182698.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6",
+        "style Type": "Flipflops",
+        "price" : "1200"
+    },
+    
+    {
+        "Name":"Birkenstock Arizona EVA 1001498 Mens Gray Narrow Flip-Flops Sandals Shoes",
+        "Manufacturer":"Brikenstock",
+        "imageurl":"https://img.shop.com/Image/260000/260000/260090/products/1907540925.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6",
+        "style Type": "Sandal Shoes",
+        "price" : "1800"
+    },
+    {
+        "Name":"Men's Foco Lsu Tigers Cork Flip Flopss",
+        "Manufacturer":"Nike",
+        "imageurl":"https://img.shop.com/Image/240000/243400/243406/products/1924100738.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"3",
+        "style Type": "Flipflops",
+        "price" : "1800"
+    },
+    {
+        "Name":"Fila Mens Forerunner Knit Sock Fit Running Shoes",
+        "Manufacturer":"Fila",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1880603079.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"8",
+        "style Type": "Running Shoes",
+        "price" : "5800"
+    },
+    {
+        "Name":"Saucony Kinvara 11 Women's Running Shoes",
+        "Manufacturer":"Adidas",
+        "imageurl":"https://img.shop.com/Image/260000/263300/263362/products/1920682456.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"40",
+        "style Type": "Running Shoes",
+        "price" : "9800"
+    },
+    {
+        "Name":"Adidas Pulseboost HD Running Shoes",
+        "Manufacturer":"Adidas",
+        "imageurl":"https://img.shop.com/Image/260000/263300/263362/products/1920682456.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"42",
+        "style Type": "Running Shoes",
+        "price" : "9800"
+    },
+
+    {
+        "Name":"adidas Big Girls Racer TR21 Running Shoes",
+        "Manufacturer":"Adidas",
+        "imageurl":"https://img.shop.com/Image/240000/243400/243406/products/1925432384.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"42",
+        "style Type": "Running Shoes",
+        "price" : "6800"
+    },
+    {
+        "Name":"Jewel Badgley Mischka Womens Bellevue Ankle Strap Open Toe Wedge Heels",
+        "Manufacturer":"Jewel Badgley Mischka",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1893283823.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"42",
+        "style Type": "Heels",
+        "price" : "6200"
+    },
+    {
+        "Name":"Lucky Brand Womens Joal Ankle Block Heels",
+        "Manufacturer":"LUCKY",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1911623400.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6",
+        "style Type": "Heels",
+        "price" : "9800"
+    },
+    {
+        "Name":"Womens Clear Heel Strappy Heels - Black - 9",
+        "Manufacturer":"LUCKY",
+        "imageurl":"https://img.shop.com/Image/250000/252500/252590/products/1920898806.jpg?size=400x400",
+        "size origin":"USA",
+        "size":"6",
+        "style Type": "Heels",
+        "price" : "9800"
+    },
+    
+    {
+        "Name":"Corso Como Womens Denice Pointed Toe Heels",
+        "Manufacturer":"CORSO",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1858089947.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"38",
+        "style Type": "Heels",
+        "price" : "5000"
+    },
+    {
+        "Name":"Badgley Mischka Womens Kiara Satin Stilettos Evening Heels",
+        "Manufacturer":"Badgley",
+        "imageurl":"https://img.shop.com/Image/270000/273200/273200/products/1928874028.jpg?size=400x400",
+        "size origin":"UK",
+        "size":"38",
+        "style Type": "Heels",
+        "price" : "6000"
+    }
 
 
-
-
+]
 }

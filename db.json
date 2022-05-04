@@ -615,7 +615,90 @@
         "updatedAt": "2022-05-04T06:54:24.957Z"
     }
 
+],
+    
+    
+"jwellery" :[
+
+    {
+        "Name":"cora- oval cut solitaire pendant",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866507.jpg?size=400x400",
+        "typeofproduct":"Pendant",
+        "price": "130000"
+    },
+    {
+        "Name":"Rope chain Bracelet 6mm",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866505.jpg?size=400x400",
+        "typeofproduct":"Bracelet",
+        "price": "150000"
+    },
+    {
+        "Name":"salena-pave cuban link",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866534.jpg?size=400x400",
+        "typeofproduct":"Link",
+        "price": "150000"
+    },
+
+    {
+        "Name":"IRIS- double stone drop earrings",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866541.jpg?size=400x400",
+        "typeofproduct":"earrings",
+        "price": "250000"
+    },
+    {
+        "Name":"oval cut studs",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866550.jpg?size=400x400",
+        "typeofproduct":"Studs",
+        "price": "250000"
+    },
+    {
+        "Name":"SAGE-emrald cut ring",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866519.jpg?size=400x400",
+        "typeofproduct":"Ring",
+        "price": "250000"
+    },
+    {
+        "Name":"SAGE-Square ring",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866560.jpg?size=400x400",
+        "typeofproduct":"Ring",
+        "price": "200000"
+    },
+    {
+        "Name":"Storm 8mm rope chain",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866535.jpg?size=400x400",
+        "typeofproduct":"Chain",
+        "price": "300000"
+    },
+    {
+        "Name":"Zodiac- astrological sign chain",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866537.jpg?size=400x400",
+        "typeofproduct":"Chain",
+        "price": "100000"
+    },
+
+    {
+        "Name":"Initial gothic letter necklace ",
+        "Brand":"Sold by BOBB+BRICKA",
+        "imageurl":"https://img.shop.com/Image/280000/282000/282022/products/1932866536.jpg?size=400x400",
+        "typeofproduct":"Chain",
+        "price": "150000"
+    }
+
 ]
+
+
+    
+
+
 
 
 }

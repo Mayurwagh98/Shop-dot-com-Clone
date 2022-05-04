@@ -1,12 +1,13 @@
 .main_div {
-    border: 2px solid red;
+   
     display: flex;
 }
 .img_div{
-    border: 2px solid blue;
+     
     width: 30%;
-    /* height: 300px; */
+    
 }
+ 
 .img_div > img{
     width: 100%;
 }
@@ -15,13 +16,13 @@
 }
 .interest_sezzle{
     display: flex;
-    border: 1px solid green;
+   
 }
 .interest{
-    border: 1px solid red;
+    
 }
 .heading_div{
-    border: 2px solid green;
+    
     width: 40%;
     /* height: 400px; */
 }
@@ -30,15 +31,14 @@
     margin: auto;
 }
 .calculate{
-    border: 1px solid black;
+   
 }
 .extra_products {
-    display: flex;
-    border: 1px solid red;
+    display: flex;  
     
 }
 .extra_products div{
-    border: 1px solid blue;
+    
     margin: auto;
     width: 30%;
     margin: 10px;

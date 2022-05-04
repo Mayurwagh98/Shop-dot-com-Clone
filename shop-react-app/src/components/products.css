@@ -41,10 +41,9 @@ text-decoration: line-through;
     justify-content: center;
  }
 .productImage>img{
-   
+   height: 386.312px;
+   width: 386.312px;
   margin: 20px 0px 40px 0px;
-    width: 280px;
-    height:320px;
     cursor: pointer;
 }
  
@@ -52,11 +51,12 @@ text-decoration: line-through;
     font-family: Roboto,Arial,Arial, Helvetica, sans-serif;
 }
 .ProductCard{
-    width: 386.31;
-    height: 587.95;
+    width: 388.312px;
+
+    height: 634.938px;
 }
 .ProductDetail{
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
     padding: 10px 0px 5px 0px;
     line-height: 15.84px;
     text-align: left;

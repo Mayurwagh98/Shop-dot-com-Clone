@@ -1,0 +1,91 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+.products>section:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.productParent{
+    width: 80%;
+    right: 0;
+}
+ 
+.products>section{
+    border: .5px solid #D9DAE5;
+    width: 390px;
+    align-items: center;
+    height:650px;
+    position: relative;
+    margin: 10px;
+}
+.crossedprice{
+text-decoration: line-through;
+}
+.Productdivfoot{
+    /* display: flex; */
+    bottom: 0;
+    position: absolute;
+   left:0;
+}
+.flex{
+    display: flex;
+}
+.cashbackProduct>p{
+    padding: 2px;
+    line-height: 14px;
+}
+ .productImage{
+    display:flex;
+    justify-content: center;
+ }
+.productImage>img{
+   
+  margin: 20px 0px 40px 0px;
+    width: 280px;
+    height:320px;
+    cursor: pointer;
+}
+ 
+*{
+    font-family: Roboto,Arial,Arial, Helvetica, sans-serif;
+}
+.ProductCard{
+    width: 386.31;
+    height: 587.95;
+}
+.ProductDetail{
+    margin: 40px 20px 0px 20px;
+    padding: 10px 0px 5px 0px;
+    line-height: 15.84px;
+    text-align: left;
+}
+ 
+.addtocartbtn{
+    background-color: #414467;
+    color: white;
+    border: #414467;
+    height: 40px;
+    width: 196px;
+    padding: 9px 9px 9px 9px;
+    cursor: pointer;
+}
+.seeDetailbtn{
+    background-color: #F0F1F7;
+    color: #414467;
+    border: #414467;
+    padding: 9px 9px 9px 5px;
+    height: 40px;
+    width: 193.160px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+   
+  }
+  

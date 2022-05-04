@@ -1,0 +1,19 @@
+.Cart-Slide-Detail{
+ align-items: center;
+ 
+}
+ 
+.CartCard{
+    margin-bottom:5%
+}
+ 
+.CartImage{
+    width: 80px;
+    height: auto;
+}
+.CartCardDetail{
+
+}
+.CartCardParent{
+    display: flex;
+}

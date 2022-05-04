@@ -406,6 +406,216 @@
         "createdAt": "2022-05-04T06:54:24.957Z",
         "updatedAt": "2022-05-04T06:54:24.957Z"
     }
+],
+    
+    
+"accessories":[
+
+    {
+        "_id": "627223200b3db42170ba0123",
+        "Name":"Michael Kors Jet Set Travel Medium Dome Crossbody Bag",
+        "Brand":"Sold by LUX LAIR",
+        "imageurl":"https://img.shop.com/Image/290000/290400/290461/products/1918590497.jpg?size=400x400",
+        "typeofproduct":"women crossbody bag",
+        "price": "1200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+
+    {
+        "_id": "627223200b3db42170ba2423",
+        "Name":"CTM Men's Elastic Braided Stretch Belt with Silver Buckle",
+        "Brand":"Sold by Belt Outlet",
+        "imageurl":"https://img.shop.com/Image/280000/280600/280604/products/1825990674.jpg?size=400x400",
+        "typeofproduct":"Silver Buckle Belt",
+        "price": "1200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170cd2423",
+        "Name":"Michael Kors AVA Extra Small Crossbody Leather Bag",
+        "Brand":"Sold by LUX LAIR",
+        "imageurl":"https://img.shop.com/Image/290000/290400/290461/products/1928871295.jpg?size=400x400",
+        "typeofproduct":"Silver Buckle Belt",
+        "price": "3200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+
+    {
+        "_id": "627223200b3db42170ba2853",
+        "Name":"Carrera '8016/S' Plastic Polarized Sunglasses",
+        "Brand":"Sold by Virtual Exchanges",
+        "imageurl":"https://img.shop.com/Image/280000/289900/289944/products/1907471270.jpg?size=400x400",
+        "typeofproduct":"Sunglasses",
+        "price": "1200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170ba9823",
+        "Name":"Tommy Hilfiger Men's Leather Casual Belt with Fabric Inlay",
+        "Brand":"Sold by Belt Outlet",
+        "imageurl":"https://img.shop.com/Image/280000/280600/280604/products/1872287304.jpg?size=400x400",
+        "typeofproduct":"Casual Belt",
+        "price": "3200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170ba2441",
+        "Name":"Decky 459-PL-WHT-07 Paisley Bucket Hat, White - Extra Large",
+        "Brand":"Sold by UnbeatableSale",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1541158517.jpg?size=400x400",
+        "typeofproduct":"White Hat",
+        "price": "700",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170ba2401",
+        "Name":"Cazoro Men's RFID Vintage Leather Trifold Chain Wallet",
+        "Brand":"Sold by Belt Outlet",
+        "imageurl":"https://img.shop.com/Image/280000/280600/280604/products/1919088349.jpg?size=400x400",
+        "typeofproduct":"chain wallet",
+        "price": "1700",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170ba2783",
+        "Name":"Music Legs 1158-BLACK Arabella Look Print Crotchless Bandage Bodystocking",
+        "Brand":"Sold by Belt Outlet",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1921868107.jpg?size=400x400",
+        "typeofproduct":"Bodystocking",
+        "price": "2700",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db42170ba2403",
+        "Name":"Mens White Handkerchiefs Pack Of 3",
+        "Brand":"Sold by Pertemba US",
+        "imageurl":"https://img.shop.com/Image/280000/289900/289943/products/1909771621.jpg?size=400x400",
+        "typeofproduct":"Handkerchief",
+        "price": "700",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db54170ba2423",
+        "Name":"CTM Men's Canvas Button-End Old West Suspenders (Tall Available)",
+        "Brand":"Sold by Belt Outlet",
+        "imageurl":"https://img.shop.com/Image/280000/280600/280604/products/1822398378.jpg?size=400x400",
+        "typeofproduct":"Old West Suspenders",
+        "price": "3000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+
+    {
+        "_id": "627223200b3db54170ba2477",
+        "Name":"TOMMY HILFIGER Men's Navy Alexander Nylon Adjustable Strap Backpack",
+        "Brand":"Sold by BOBBI + BRICKA",
+        "imageurl":"https://img.shop.com/Image/270000/278100/278132/products/1924826745.jpg?size=400x400",
+        "typeofproduct":"Adjustable bag",
+        "price": "3000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db54170ba4303",
+        "Name":"Red Guardian 806104-medium-large Red Guardian Symbol from Black Widow Movie New Era 39Thirty Fitted Hat, Medium & Large",
+        "Brand":"Sold by BOBBI + BRICKA",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1889189758.jpg?size=400x400",
+        "typeofproduct":"fitted hat",
+        "price": "3000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db12170ba2423",
+        "Name":"MKF Collection Royalty Lightweight Tote Bag by Mia K.",
+        "Brand":"Sold by MKF Collection",
+        "imageurl":"https://img.shop.com/Image/280000/289000/289007/products/1911619244.jpg?size=400x400",
+        "typeofproduct":"fitted hat",
+        "price": "20000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200y3db54170ba2423",
+        "Name":"Leopard mask - Orange Washable.",
+        "Brand":"Sold by MKF Collection",
+        "imageurl":"https://img.shop.com/Image/280000/288000/288080/products/1894373586.jpg?size=400x400",
+        "typeofproduct":"face Mask",
+        "price": "200",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200r3db54170ba2423",
+        "Name":"Pink Ribbons Headband FeatherSoft.",
+        "Brand":"Sold by NotJustLeggings",
+        "imageurl":"https://img.shop.com/Image/280000/288000/288080/products/1892927489.jpg?size=400x400",
+        "typeofproduct":"headband",
+        "price": "2000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "675223200b3db54170ba2423",
+        "Name":"Large Logo Dome Crossbody Bag",
+        "Brand":"Sold by NotJustLeggings",
+        "imageurl":"https://img.shop.com/Image/270000/273800/273802/products/1891811481.jpg?size=400x400",
+        "typeofproduct":"crossbody bag",
+        "price": "25000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223244b3db54170ba2423",
+        "Name":"Mina Small Logo Crossbody Bag",
+        "Brand":"Sold by NotJustLeggings",
+        "imageurl":"https://img.shop.com/Image/270000/273800/273802/products/1881835004.jpg?size=400x400",
+        "typeofproduct":"crossbody bag",
+        "price": "35000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3jh54170ba2423",
+        "Name":"Boss Gloves Jumbo Unlined Premium Grain Deerskin Driver Gloves 4085J",
+        "Brand":"Sold by UnbeatableSale",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1385717928.jpg?size=400x400",
+        "typeofproduct":"driver gloves",
+        "price": "3000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223255b3db54170ba2423",
+        "Name":"Simba EXPRESS-KT41 0.75 in. Gem Round Keytag Vibraprint with Split Ring",
+        "Brand":"Sold by UnbeatableSale",
+        "imageurl":"https://img.shop.com/Image/250000/251800/251872/products/1567121922.jpg?size=400x4000",
+        "typeofproduct":"split keyring",
+        "price": "3000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    },
+    {
+        "_id": "627223200b3db51870ba2423",
+        "Name":"Ray-Ban Unisex RB3025 58mm Sunglasses",
+        "Brand":"Sold by UnbeatableSale",
+        "imageurl":"https://img.shop.com/Image/270000/278200/278200/products/1925704237.jpg?size=400x400",
+        "typeofproduct":"sunglassess",
+        "price": "13000",
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    }
+
 ]
+
 
 }

@@ -1,0 +1,411 @@
+
+{
+"mens": [
+{
+    "_id": "62720de20b3db42170ba03e6",
+    "Name": "BARBOUR Mens Green Plaid Button Down Casual Shirt",
+    "Brand": "BOBBI + BRICKA",
+    "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1925889439.jpg?size=400x400",
+    "typeofproduct": "Men's shirt",
+    "price": 2000,
+    "createdAt": "2022-05-04T05:23:46.196Z",
+    "updatedAt": "2022-05-04T05:23:46.196Z"
+},
+{
+    "_id": "62720e5f0b3db42170ba03e8",
+    "Name": "K-Swiss Mens Sweatshirt Fitness Hoodie",
+    "Brand": "Sold by BHFO",
+    "imageurl": "https://img.shop.com/Image/270000/273200/273200/products/1900647367.jpg?size=400x400",
+    "typeofproduct": "Men's Hoodie",
+    "price": 2000,
+    "createdAt": "2022-05-04T05:25:51.853Z",
+    "updatedAt": "2022-05-04T05:25:51.853Z"
+},
+{
+    "_id": "62720eea0b3db42170ba03ea",
+    "Name": "DOCKERS Mens Navy Flat Front Easy Care Stretch Straight Leg Slim Fit Performance Stretch",
+    "Brand": "Sold by BOBBI+BRICKA",
+    "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1918856539.jpg?size=400x400",
+    "typeofproduct": "Men's Slim Fit",
+    "price": 2000,
+    "createdAt": "2022-05-04T05:28:10.360Z",
+    "updatedAt": "2022-05-04T05:28:10.360Z"
+},
+{
+    "_id": "62720f1d0b3db42170ba03ec",
+    "Name": "Natty Light Natural History Rowdy Gentleman Blue Men's T-Shirt",
+    "Brand": "Sold by  Main MerchA",
+    "imageurl": "https://img.shop.com/Image/260000/269300/269358/products/1857898430.jpg?size=400x400",
+    "typeofproduct": "Men's Slim Fit",
+    "price": 1000,
+    "createdAt": "2022-05-04T05:29:01.841Z",
+    "updatedAt": "2022-05-04T05:29:01.841Z"
+},
+{
+    "_id": "62720f880b3db42170ba03ee",
+    "Name": "HUGO BOSS Mens Black Lined Single Breasted Extra Slim Fit Suit Separate",
+    "Brand": "Sold by BOBBI + BRICKA",
+    "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1921790259.jpg?size=400x400",
+    "typeofproduct": "Men's Slim Fit suit",
+    "price": 8000,
+    "createdAt": "2022-05-04T05:30:48.735Z",
+    "updatedAt": "2022-05-04T05:30:48.735Z"
+},
+{
+    "_id": "6272102b0b3db42170ba03f0",
+    "Name": "Pink Floyd Men's Dark Side Of The Moon Prism Splatter Dye Adult T-Shirt",
+    "Brand": "Sold by Seven Times Six",
+    "imageurl": "https://img.shop.com/Image/250000/254500/254570/products/1791522772.jpg?size=400x400",
+    "typeofproduct": "Men's Tshirt",
+    "price": 1500,
+    "createdAt": "2022-05-04T05:33:31.514Z",
+    "updatedAt": "2022-05-04T05:33:31.514Z"
+},
+{
+    "_id": "627211490b3db42170ba03f2",
+    "Name": "Mens 100% Cotton Ribbed Knee High Socks (Pack Of 3)",
+    "Brand": "Sold by Pertemba US",
+    "imageurl": "https://img.shop.com/Image/280000/289900/289943/products/1907402964.jpg?size=400x400",
+    "typeofproduct": "Men's Socks",
+    "price": 500,
+    "createdAt": "2022-05-04T05:38:17.937Z",
+    "updatedAt": "2022-05-04T05:38:17.937Z"
+},
+{
+    "_id": "627211870b3db42170ba03f4",
+    "Name": "The Mens store Mens White Classic Fit Button Down Casual Shirt)",
+    "Brand": "Sold by  BOBBI + BRICKA",
+    "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1921266290.jpg?size=400x400",
+    "typeofproduct": "Men's Shirt",
+    "price": 2500,
+    "createdAt": "2022-05-04T05:39:19.781Z",
+    "updatedAt": "2022-05-04T05:39:19.781Z"
+},
+{
+    "_id": "627211d50b3db42170ba03f6",
+    "Name": "Brooklyn Brigade Men's Standard-Fit 9",
+    "Brand": "Sold by  BOBBI + BRICKA",
+    "imageurl": "https://img.shop.com/Image/240000/243400/243406/products/1851724987.jpg?size=400x400",
+    "typeofproduct": "Men's Shorts",
+    "price": 980,
+    "createdAt": "2022-05-04T05:40:37.400Z",
+    "updatedAt": "2022-05-04T05:40:37.400Z"
+},
+{
+    "_id": "627212220b3db42170ba03f8",
+    "Name": "Boss x Nba Men's Relaxed-Fit Shorts",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/240000/243400/243406/products/1927496055.jpg?size=400x400",
+    "typeofproduct": "Men's Shorts",
+    "price": 1080,
+    "createdAt": "2022-05-04T05:41:54.143Z",
+    "updatedAt": "2022-05-04T05:41:54.143Z"
+},
+{
+    "_id": "6272125c0b3db42170ba03fa",
+    "Name": "Mens 100% Cotton Ribbed /Rib Classic Casual Crew Socks (Pack Of 6) US Size 7-12",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/280000/289900/289943/products/1907391135.jpg?size=400x400",
+    "typeofproduct": "Men's Socks",
+    "price": 580,
+    "createdAt": "2022-05-04T05:42:52.594Z",
+    "updatedAt": "2022-05-04T05:42:52.594Z"
+},
+{
+    "_id": "627212980b3db42170ba03fc",
+    "Name": "Boss x Nba Men's Tracksuit Bottoms",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/240000/243400/243406/products/1926552073.jpg?size=400x400",
+    "typeofproduct": "Men's Tracksuit",
+    "price": 3000,
+    "createdAt": "2022-05-04T05:43:52.425Z",
+    "updatedAt": "2022-05-04T05:43:52.425Z"
+},
+{
+    "_id": "627212f10b3db42170ba03fe",
+    "Name": "Ecko Unltd. Men's Jeans Blue 36X31 Denim Stretch Skinny Fit",
+    "Brand": "Sold by Authentic Designer Fashion",
+    "imageurl": "https://img.shop.com/Image/260000/266700/266752/products/1886479534.jpg?size=400x400",
+    "typeofproduct": "Men's Tracksuit",
+    "price": 3500,
+    "createdAt": "2022-05-04T05:45:21.928Z",
+    "updatedAt": "2022-05-04T05:45:21.928Z"
+},
+{
+    "_id": "6272141c0b3db42170ba0400",
+    "Name": "BOSS Hugo Boss Slim Fit Wool Sport Coat",
+    "Brand": "Sold by Authentic Designer Fashion",
+    "imageurl": "https://img.shop.com/Image/240000/248200/248295/products/1902022725.jpg?size=400x400",
+    "typeofproduct": "Men's Wool Coat",
+    "price": 5500,
+    "createdAt": "2022-05-04T05:50:20.367Z",
+    "updatedAt": "2022-05-04T05:50:20.367Z"
+},
+{
+    "_id": "627214640b3db42170ba0402",
+    "Name": "Greenwich Cotton Polo Shirt",
+    "Brand": "Sold by Authentic Designer Fashion",
+    "imageurl": "https://img.shop.com/Image/270000/273800/273802/products/1761136199.jpg?size=400x400",
+    "typeofproduct": "Men's tshirt",
+    "price": 1500,
+    "createdAt": "2022-05-04T05:51:32.316Z",
+    "updatedAt": "2022-05-04T05:51:32.316Z"
+},
+{
+    "_id": "627214a60b3db42170ba0404",
+    "Name": "Boss x Nba Men's Relaxed-Fit T-Shirt",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/240000/243400/243406/products/1926552146.jpg?size=400x400",
+    "typeofproduct": "Men's tshirt",
+    "price": 2500,
+    "createdAt": "2022-05-04T05:52:38.392Z",
+    "updatedAt": "2022-05-04T05:52:38.392Z"
+},
+{
+    "_id": "627214f20b3db42170ba0406",
+    "Name": "Ecko Unltd. Mens Velocity Wash C Plus Slim Fit Jeans",
+    "Brand": "Sold by Tags Weekly",
+    "imageurl": "https://img.shop.com/Image/250000/253200/253251/products/1007731246.jpg?size=400x400",
+    "typeofproduct": "Men's slim fit jeans",
+    "price": 5500,
+    "createdAt": "2022-05-04T05:53:54.540Z",
+    "updatedAt": "2022-05-04T05:53:54.540Z"
+},
+{
+    "_id": "627215280b3db42170ba0408",
+    "Name": "LEVI'S Mens Maroon Jeanss",
+    "Brand": "Sold by BOBBI + BRICKA",
+    "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1899126739.jpg?size=400x400",
+    "typeofproduct": "Men's slim fit jeans",
+    "price": 5500,
+    "createdAt": "2022-05-04T05:54:48.819Z",
+    "updatedAt": "2022-05-04T05:54:48.819Z"
+},
+{
+    "_id": "627215560b3db42170ba040a",
+    "Name": "Mvp Collections Men's Big & Tall Denim Biker Jean",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/240000/243400/243406/products/1792345282.jpg?size=400x400",
+    "typeofproduct": "Men's slim fit jeans",
+    "price": 3500,
+    "createdAt": "2022-05-04T05:55:34.575Z",
+    "updatedAt": "2022-05-04T05:55:34.575Z"
+},
+{
+    "_id": "6272159c0b3db42170ba040c",
+    "Name": "BOSS Hugo Boss Slim Fit Wool Sport Coat",
+    "Brand": "Sold by Macy's",
+    "imageurl": "https://img.shop.com/Image/240000/248200/248295/products/1902022725.jpg?size=400x400",
+    "typeofproduct": "Men's Coat",
+    "price": 10500,
+    "createdAt": "2022-05-04T05:56:44.398Z",
+    "updatedAt": "2022-05-04T05:56:44.398Z"
+}
+],
+
+
+"womens":
+[
+    {
+        "_id": "627217100b3db42170ba040f",
+        "Name": "ADRIANNA PAPELL Womens Black Sheer Short Sleeve Illusion Neckline Party T-Shirt",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1921266473.jpg?size=400x400",
+        "typeofproduct": "women's tshirt",
+        "price": 1500,
+        "createdAt": "2022-05-04T06:02:56.417Z",
+        "updatedAt": "2022-05-04T06:02:56.417Z"
+    },
+    {
+        "_id": "627217480b3db42170ba0411",
+        "Name": "Adrianna Papell Womens Crop Square Neck Tank Top",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/270000/273200/273200/products/1930607796.jpg?size=400x400",
+        "typeofproduct": "women's tank top",
+        "price": 2500,
+        "createdAt": "2022-05-04T06:03:52.492Z",
+        "updatedAt": "2022-05-04T06:03:52.492Z"
+    },
+    {
+        "_id": "627217ca0b3db42170ba0413",
+        "Name": "M&M's Women's Mars Candy Chocolate M and M Spiral Tie-Dye Girls T-Shirt",
+        "Brand": "Sold by Seven Times Six",
+        "imageurl": "https://img.shop.com/Image/250000/254500/254570/products/1896906353.jpg?size=400x400",
+        "typeofproduct": "women's tshirt",
+        "price": 3500,
+        "createdAt": "2022-05-04T06:06:02.861Z",
+        "updatedAt": "2022-05-04T06:06:02.861Z"
+    },
+    {
+        "_id": "62721f110b3db42170ba0416",
+        "Name": "ALFANI Womens Pink Sheer 3/4 Sleeve V Neck Tunic",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1920881474.jpg?size=400x400",
+        "typeofproduct": "women's neck Tunic",
+        "price": 3500,
+        "createdAt": "2022-05-04T06:37:05.540Z",
+        "updatedAt": "2022-05-04T06:37:05.540Z"
+    },
+    {
+        "_id": "62721f440b3db42170ba0418",
+        "Name": "Mickey Mouse Gold Foil Ladies Black Tee Shirt",
+        "Brand": "Sold by Main Merch",
+        "imageurl": "https://img.shop.com/Image/260000/269300/269358/products/1653885471.jpg?size=400x400",
+        "typeofproduct": "women's tshirt",
+        "price": 1500,
+        "createdAt": "2022-05-04T06:37:56.452Z",
+        "updatedAt": "2022-05-04T06:37:56.452Z"
+    },
+    {
+        "_id": "62721f840b3db42170ba041a",
+        "Name": "Karen - Red Top Quality Fashion Women's Top",
+        "Brand": "Sold by NotJustLeggings",
+        "imageurl": "https://img.shop.com/Image/280000/288000/288080/products/1895035695.jpg?size=400x400",
+        "typeofproduct": "women's top",
+        "price": 2500,
+        "createdAt": "2022-05-04T06:39:00.414Z",
+        "updatedAt": "2022-05-04T06:39:00.414Z"
+    },
+    {
+        "_id": "62721fac0b3db42170ba041c",
+        "Name": "Mochatonix T-Shirt",
+        "Brand": "Sold by NotJustLeggings",
+        "imageurl": "https://img.shop.com/Image/290000/291400/291468/products/1924804252.jpg?size=400x400",
+        "typeofproduct": "women's Tshirt",
+        "price": 1500,
+        "createdAt": "2022-05-04T06:39:40.004Z",
+        "updatedAt": "2022-05-04T06:39:40.004Z"
+    },
+    {
+        "_id": "627220120b3db42170ba041e",
+        "Name": "Tahari Womens Paisley Midi Wrap Dress",
+        "Brand": "Sold by BHFO",
+        "imageurl": "https://img.shop.com/Image/270000/273200/273200/products/1919388686.jpg?size=400x400",
+        "typeofproduct": "women's Wrap Dress",
+        "price": 2900,
+        "createdAt": "2022-05-04T06:41:22.913Z",
+        "updatedAt": "2022-05-04T06:41:22.913Z"
+    },
+    {
+        "_id": "627220450b3db42170ba0420",
+        "Name": "RALPH LAUREN Womens Silver Sleeveless Asymmetrical Neckline Maxi Sheath Evening Dress",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1920679578.jpg?size=400x400",
+        "typeofproduct": "women's evening Dress",
+        "price": 3500,
+        "createdAt": "2022-05-04T06:42:13.246Z",
+        "updatedAt": "2022-05-04T06:42:13.246Z"
+    },
+    {
+        "_id": "627220650b3db42170ba0422",
+        "Name": "Xscape Women's Dress Pink Size 12 A-Line Halter Jacquard Floral Skirt",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/280000/289600/289605/products/1919583208.jpg?size=400x400",
+        "typeofproduct": "women's Skirt Dress",
+        "price": 1500,
+        "createdAt": "2022-05-04T06:42:45.353Z",
+        "updatedAt": "2022-05-04T06:42:45.353Z"
+    },
+    {
+        "_id": "627220c90b3db42170ba0424",
+        "Name": "Michael Kors Womens Handkerchief Print Casual Cropped Pants",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/250000/253200/253251/products/1865990768.jpg?size=400x400",
+        "typeofproduct": "women's Pants",
+        "price": 1000,
+        "createdAt": "2022-05-04T06:44:25.652Z",
+        "updatedAt": "2022-05-04T06:44:25.652Z"
+    },
+    {
+        "_id": "6272210c0b3db42170ba0426",
+        "Name": "bar III Womens Knit Casual Wide Leg Pants",
+        "Brand": "Sold by Tags Weekly",
+        "imageurl": "https://img.shop.com/Image/250000/253200/253251/products/1788900538.jpg?size=400x400",
+        "typeofproduct": "women wide leg  Pants",
+        "price": 2000,
+        "createdAt": "2022-05-04T06:45:32.724Z",
+        "updatedAt": "2022-05-04T06:45:32.724Z"
+    },
+    {
+        "_id": "6272213b0b3db42170ba0428",
+        "Name": "Island Butterflies Jogger FeatherSoft Women's Pants",
+        "Brand": "Sold by NotJustLeggings",
+        "imageurl": "https://img.shop.com/Image/280000/288000/288080/products/1893549634.jpg?size=400x400",
+        "typeofproduct": "women Pants",
+        "price": 2000,
+        "createdAt": "2022-05-04T06:46:19.571Z",
+        "updatedAt": "2022-05-04T06:46:19.571Z"
+    },
+    {
+        "_id": "6272217d0b3db42170ba042a",
+        "Name": "J Brand Womens Alana Denim Medium Wash Skinny Crop Jeans",
+        "Brand": "Sold by BHFO",
+        "imageurl": "https://img.shop.com/Image/270000/273200/273200/products/1893409378.jpg?size=400x400",
+        "typeofproduct": "women Skinny Jeans",
+        "price": 5000,
+        "createdAt": "2022-05-04T06:47:25.179Z",
+        "updatedAt": "2022-05-04T06:47:25.179Z"
+    },
+    {
+        "_id": "627221be0b3db42170ba042c",
+        "Name": "J Brand Womens 1212 Runway Denim Light Wash Straight Leg Jeans",
+        "Brand": "Sold by BHFO",
+        "imageurl": "https://img.shop.com/Image/270000/273200/273200/products/1892888246.jpg?size=400x400",
+        "typeofproduct": "women straight leg Jeans",
+        "price": 5000,
+        "createdAt": "2022-05-04T06:48:30.526Z",
+        "updatedAt": "2022-05-04T06:48:30.526Z"
+    },
+    {
+        "_id": "627222310b3db42170ba042e",
+        "Name": "KAREN SCOTT Womens Black Long Sleeve Open Cardigan Sweater",
+        "Brand": "Sold by BOBBI + BRICKA",
+        "imageurl": "https://img.shop.com/Image/270000/278100/278132/products/1925886602.jpg?size=400x400",
+        "typeofproduct": "Cardigan Sweater",
+        "price": 2000,
+        "createdAt": "2022-05-04T06:50:25.670Z",
+        "updatedAt": "2022-05-04T06:50:25.670Z"
+    },
+    {
+        "_id": "6272225e0b3db42170ba0430",
+        "Name": "Alfani Womens Turtleneck Elbow-Sleeve Pullover Sweater",
+        "Brand": "Sold by Tags Weekly",
+        "imageurl": "https://img.shop.com/Image/250000/253200/253251/products/1920411804.jpg?size=400x400",
+        "typeofproduct": "women Pullover",
+        "price": 2500,
+        "createdAt": "2022-05-04T06:51:10.892Z",
+        "updatedAt": "2022-05-04T06:51:10.892Z"
+    },
+    {
+        "_id": "627222800b3db42170ba0432",
+        "Name": "Fashion Cardigan - Copper Top Quality Women's",
+        "Brand": "Sold by Tags Weekly",
+        "imageurl": "https://img.shop.com/Image/280000/288000/288080/products/1892927061.jpg?size=400x400",
+        "typeofproduct": "women Cardigan",
+        "price": 2500,
+        "createdAt": "2022-05-04T06:51:44.365Z",
+        "updatedAt": "2022-05-04T06:51:44.365Z"
+    },
+    {
+        "_id": "627222b70b3db42170ba0434",
+        "Name": "Snappy Cardigan - Black Top Quality Women's",
+        "Brand": "Sold by NotJustLeggings",
+        "imageurl": "https://img.shop.com/Image/280000/288000/288080/products/1892927121.jpg?size=400x400",
+        "typeofproduct": "women Cardigan",
+        "price": 2500,
+        "createdAt": "2022-05-04T06:52:39.185Z",
+        "updatedAt": "2022-05-04T06:52:39.185Z"
+    },
+    {
+        "_id": "627223200b3db42170ba0436",
+        "Name": "Magical Unicorn - Lounge Pants",
+        "Brand": "Sold by NotJustLeggings",
+        "imageurl": "https://img.shop.com/Image/280000/288000/288080/products/1892927115.jpg?size=400x400",
+        "typeofproduct": "women Lounge pants",
+        "price": 1000,
+        "createdAt": "2022-05-04T06:54:24.957Z",
+        "updatedAt": "2022-05-04T06:54:24.957Z"
+    }
+]
+
+}

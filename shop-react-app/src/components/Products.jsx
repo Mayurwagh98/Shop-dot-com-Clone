@@ -3,6 +3,7 @@ import { products,cart } from "../Product-Redux/action"
 import { useDispatch} from "react-redux"
 import { useNavigate } from "react-router-dom"
 import "./products.css"
+import {nanoid} from"nanoid"
 export const Products=()=>{
    const navigate=useNavigate()
     const dispatch=useDispatch()
@@ -12,7 +13,7 @@ export const Products=()=>{
         let res= await fetch(`http://localhost:8080/products`)
         let data=await res.json()
         setData(data)
-        console.log(data)
+        // console.log(data)
         dispatch(products(data))
     }
 
@@ -43,10 +44,12 @@ export const Products=()=>{
                 <p></p>
                 <p></p>
             </div>
-
-            <div className="products">
+            <section>
+                <div></div>
+                <div>
+                <div className="products">
                 {data.map((el)=>(
-                    <section className="ProductCard" key={el._id}>
+                    <section className="ProductCard" key={nanoid()}>
                         <div className="productImage" >
                           <img src={el.imageurl} alt="" />
                         </div>
@@ -76,9 +79,10 @@ export const Products=()=>{
                     </section>
                 ))}
             </div>
-            <div className="productPageFooter">
-
-            </div>
+                </div>
+            </section>
+           
+             
     </div>
     
 

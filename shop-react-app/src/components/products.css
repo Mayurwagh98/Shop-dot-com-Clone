@@ -27,7 +27,7 @@ text-decoration: line-through;
     /* display: flex; */
     bottom: 0;
     position: absolute;
-   left:0;
+    left:0;
 }
 .flex{
     display: flex;

@@ -1,0 +1,42 @@
+.lefT{
+    width: 60%;
+    /* border: 1px solid red; */
+    line-height: 5px;
+}
+
+.righT{
+    width: 40%;
+    /* border: 1px solid green; */
+    margin-left:10px;
+    padding:10px;
+    background-color:#f0f1f7;
+}
+
+.prodDeTaiL{
+    display: flex;
+    padding: 10px 0px;
+}
+.imgDiv{
+    height: 120px;
+}
+
+.ProD_tiTle{
+    color: #202340;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.ProD_PricE{
+    color: #202340;
+    font-size: 20px;
+}
+
+.ProD_caShback, .ProD_ID{
+    font-size: 12px;
+    font-size: 12px;
+    color: rgb(104, 102, 102);
+}
+.ProD_ID{
+    color: grey;
+}

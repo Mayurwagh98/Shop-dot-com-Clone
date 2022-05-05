@@ -7,9 +7,17 @@ export const Cart=()=>{
     const GetCart=useSelector((store)=>store.cart)
     const [Cartdata,setCartData]=useState([])
     const dispatch=useDispatch()
+    const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
     const getCart=async()=>{
-        let res= await fetch(`http://localhost:8080/Cart`)
+        let res= await fetch(`https://shop-clone-api.herokuapp.com/carts`,{
+            headers:{
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${Authtoken}`,
+            }
+        })
+
         let data=await res.json()
+        console.log(data)
         setCartData(data)
         dispatch(cart(data))
     }
@@ -23,14 +31,14 @@ export const Cart=()=>{
         <div className="cart">
             {Cartdata.map((el)=>(
                 <div  className="CartCard" key ={el.id}>
-                     <h1>Shipment from {el.id}</h1>
+                     <h1>Shipment from {el.Brand}</h1>
                    <hr />
                   <div className="CartCardParent">
                       <div >
-                          <img className="CartImage"src={el.image} alt="" />
+                          <img className="CartImage"src={el.imageurl} alt="" />
                       </div>
                       <div className="CartCardDetail">
-                          <h3>{el.title}</h3>
+                          <h3>{el.Name}</h3>
                           <h1>${el.price}</h1>
                           <div>
                               <p></p>

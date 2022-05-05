@@ -16,21 +16,23 @@ import pintrest from "../Images/icons8-pinterest-50.png"
 import save from "../Images/icons8-save-30.png"
 import dollar from "../Images/icons8-us-dollar-24.png"
 export const ProductDetail = () => {
-    let {id}=useParams()
+    let {name,id}=useParams()
+    
     const navigate=useNavigate()
     const [data, setData] = useState({});
     const[likedata,setlikeData]=useState([])
 
     const getLikeData=async()=>{
-        let res = await fetch(`http://localhost:8080/products?_limit=5`);
+        let res = await fetch(`https://shop-clone-api.herokuapp.com/products/${name}?pagesize=4`);
         let mightlikedata = await res.json();
-       setlikeData(mightlikedata)
+       setlikeData(mightlikedata.product)
          
     }
     async function getData() {
-        let data = await fetch(`http://localhost:8080/products`);
-        data = await data.json();
-        let curr=data.find(element => element._id ==id);
+        let fetchdata = await fetch(`https://shop-clone-api.herokuapp.com/products/${name}`);
+        let res= await fetchdata.json();
+        let curr=res.product.find(element => element._id ==id);
+        
         setData(curr);
          
     }
@@ -39,22 +41,39 @@ export const ProductDetail = () => {
         getData();
         getLikeData();
     }, []);
-
+    const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
     const postData=async(el)=>{
-        fetch("http://localhost:8080/Cart",{
-            "method":"POST",
-            "headers":{
-                "Content-Type":"application/json"
+         
+        await fetch("https://shop-clone-api.herokuapp.com/carts",{
+            method:"POST",
+           
+            headers:{
+                "Content-Type":"application/json",
+                Authorization: `Bearer ${Authtoken}`
             },
-            "body":JSON.stringify(el)
+            body:JSON.stringify(el)
         })
     }
     function AddtoCart(el){
-         postData(el)
+    
+            let postingProd= {
+                imageurl:el.imageurl||"",
+                Category:el.Category||"",
+                Brand: el.Brand||"",
+                Name: el.Name||"",
+                price:el.price||0,
+                typeofproduct: el.typeofproduct||"",
+                Manufacturer: el.Manufacturer||"",
+                styleType:el.styleType||"",
+                sizeorigin: el.sizeorigin||0
+
+            }
+        //    console.log(postingProd)
+         postData(postingProd)
     }
     function ProductDetailPage(id){
-        console.log(id)
-        navigate(`/product/${id}`, {replace:false})
+        
+        navigate(`/product/${name}/${id}`, {replace:false})
         window. location. reload()
     }
     return <main >
@@ -117,7 +136,7 @@ export const ProductDetail = () => {
                   <div className="eachIcon">  <img src={save} alt="save" /></div>
                   <div className="eachIcon"> <img src={email} alt="email" /></div> 
                    <div className="eachIcon"><img src={facebook}alt="facebook" /></div> 
-                    <div className="eachIcon"><img src={twitter} alt="twitter" /></div>
+                <div className="eachIcon"><img src={twitter} alt="twitter" /></div>
                   <div className="eachIcon"><img src={pintrest}alt="pintrest" /></div>  
                 </div>
                

@@ -157,7 +157,7 @@ cursor: pointer;
 }
 .right_div{
     border: 1px solid none;
-  width: 50%;
+    width: 50%;
 }
 .product_info>:nth-child(1){
     padding-top: 40px;
@@ -169,4 +169,45 @@ cursor: pointer;
 }
 .product_info>:nth-child(3){
     margin-top: 5%;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        line-height: 1;
+    }
+    .main_div{
+        
+     display: block;
+       
+    }
+    .right_div{
+      display: block;
+         width: 100%;
+    }
+    .firstdiv{
+        width: 100%;
+    }
+    .thought{
+        margin-top: 100%;
+    }
+    .extra_products{
+        display: block;
+    }
+    .extra_products_card{
+        width: auto;
+    }
+    
+   .side_bar_div{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       margin: 0%;
+   
+  }
+  .side_bar{
+     margin: 10px;
+    left:0;
+  }
+  .product_info{
+
+    margin:2%;
+}
 }

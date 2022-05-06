@@ -3,7 +3,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {FiFacebook} from 'react-icons/fi'
 import {FiTwitter} from 'react-icons/fi'
 import {FaPinterestP} from 'react-icons/fa'
-// import img1 from "../images/footerall.png";
+
 import "./footer.css"
 export default function Footer() {
   return (
@@ -31,7 +31,9 @@ export default function Footer() {
        <span className='descri3'>Privacy Policy | Terms of Use | Advertising Disclosure | Return Policy | Shipping Information</span> 
       </div>
       <div className='submain3'>
-          {/* <img src={img1} alt="" height={250} width="100%" /> */}
+          <img 
+          src=""
+           alt="" height="250px" width="100%" />
       </div>
       <div className='submain4'></div>
     </div>

@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// import Navbar from './Components/navbar/Navbar';
-// import Navbar from './Components/Navbar';
+
 import Nav from "./Components/navbar2/Nav"
 import Navbar from './Components/navbar1/Navbar';
 import { Route, Routes } from 'react-router-dom';
@@ -11,7 +10,7 @@ import CardAddress from './Components/cardinAddress/CardAddress';
 
 
 
-import  Footer  from './Components/footer/Footer';
+
 
 
 function App() {
@@ -19,11 +18,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <Nav/>
-
+      
       <CardAddress/>
     {/* <Cartinfo/>   */}
      
-      {/* <Footer/> */}
+     
     
     </div>
   );

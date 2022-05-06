@@ -2,10 +2,12 @@ import React from 'react';
 
 import {AiFillCloseCircle} from "react-icons/ai"
 import { Button } from "antd";
-import "./cardadd.css"
+import "./cardadd.css";
+
 
 const CardAddress = () => {
   return (
+    <>
     <div className='cardinfomain'>
       <div className='carttitle1'>
           <div className='CICA'>Card Information</div>
@@ -74,6 +76,8 @@ const CardAddress = () => {
             <Button className='white'>Close</Button>
       </div>
     </div>
+   
+    </>
   )
 }
 

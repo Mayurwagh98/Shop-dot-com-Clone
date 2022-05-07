@@ -18,8 +18,11 @@ export const CartSlide = () => {
       navigate("/signin",{replace:false}),onClose()
       alert ("Please Login" )
     }
-    setSize('large');
-    setVisible(true);
+    else{
+      setSize('large');
+      setVisible(true);
+    }
+   
   };
 
   const onClose = () => {

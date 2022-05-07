@@ -1,13 +1,13 @@
 import { Layout } from "antd";
-// import { Navbar } from "../SimpleNavbar/SimpleNavbar";
-// import { SimpleFooter } from "../SimpleFooter/SimpleFooter";
+import { Navbar } from "../SimpleNavbar/SimpleNavbar";
+import { SimpleFooter } from "../SimpleFooter/SimpleFooter";
 import { useState } from "react";
 import "./Address.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-export const Address = () => {
-
+export const Address = (props) => {
+  console.log(props.firstName,"vel")
   const { Header, Content, Footer } = Layout;
   const [address, setaddress] = useState({});
   const getInputField = (e) => {
@@ -19,14 +19,14 @@ export const Address = () => {
   async function handle(e) {
     e.preventDefault();
     console.log(address);
-    let token=JSON.parse(localStorage.getItem("Authtoken"))
+    let token=JSON.parse(localStorage.getItem("token"))
      console.log(token)
     let addr = JSON.stringify(address);
       let saveAddress = async () => {
         try {
          
           
-          await fetch("https://shop-clone-api.herokuapp.com/addresses/:id", {
+          await fetch("https://shop-clone-api.herokuapp.com/addresses", {
             method: "POST",
             body: addr,
             headers: {
@@ -129,12 +129,10 @@ export const Address = () => {
                   />
                   <br />
                   <br />
-                  <button class="cancel" href="#">
-                    Cancel
-                  </button>
-                  <Link to="/addressdetails">
-                    <input id="submit" type="submit" value="save" />
-                  </Link>
+                 
+
+                  <input id="submit" type="submit" value="save" />
+                  <Link id="submit" to="/addressdetails">Continue Checkout</Link>
                 </div>
                 <div className="middle"></div>
                 <div className="left">

@@ -1,11 +1,13 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 import {AiFillCloseCircle} from "react-icons/ai"
 import { Button } from "antd";
 import "./Payment.css";
 
 
 export const CardAddress = () => {
+
+    const nav = useNavigate();
     
   return (
     <>
@@ -73,7 +75,10 @@ export const CardAddress = () => {
          
       </div>
       <div className='btns'>
-            <Button className='blue'>Continue</Button>
+            <Button className='blue' onClick={()=>{
+                alert("Your order has been placed Successfully. Thank you for Shopping!")
+                nav("/");
+            }}>Place Order</Button>
             <Button className='white'>Close</Button>
       </div>
     </div>

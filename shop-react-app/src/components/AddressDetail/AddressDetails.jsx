@@ -2,11 +2,27 @@ import { Layout } from "antd";
 import { Navbar } from "../SimpleNavbar/SimpleNavbar";
 import { SimpleFooter } from "../SimpleFooter/SimpleFooter";
 import "./AddressDetails.css";
-import {useState,useEffect} from "react"
+import {useState,useEffect,useContext} from "react"
 import {Link} from "react-router-dom"
-
+import { CartContext } from "../../context/cartContext";
 
 export const AddressDetails = () => {
+  const { cart } = useContext(CartContext);
+  let arr = cart;
+  console.log(arr)
+
+ var total = 0;
+ for (let t = 0; t < arr.length; t++) {
+     let k=0
+     if(arr[t]==NaN)
+     {
+        k=0
+     }
+     else{
+         k=+arr[t].price
+     }
+   total += k
+ }
   const [address,setaddress]=useState([])
   async function deleteAddress(props){
     console.log(props)
@@ -60,7 +76,7 @@ async function getData(){
   useEffect(()=>{
     getData()
   },[])
-  
+
   const { Header, Content, Footer } = Layout;
   return (
     <div>
@@ -72,7 +88,7 @@ async function getData(){
           <div className="container">
             <div className="header">
               <h1>Checkout</h1>
-              <p>Order total: $25.99</p>
+              <p>Order total:{total}</p>
             </div>
             <br />
             <br />
@@ -160,13 +176,13 @@ async function getData(){
                     <h4>Order Total</h4>
                   </div>
                   <div>
-                    <h4>$25.99</h4>
+                    <h4>$ {total}</h4>
                   </div>
                 </div>
                 <br />
                 <div className="innerflex">
                   <div>Cashback earned on this order:</div>
-                  <div>$1.56</div>
+                  <div>$ 0.00</div>
                 </div>
                 <div className="green"></div>
                 <br />

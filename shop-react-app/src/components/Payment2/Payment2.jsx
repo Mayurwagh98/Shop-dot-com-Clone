@@ -1,11 +1,35 @@
 import React from 'react';
-import {useState,useEffect} from "react"
+import {useState,useEffect, useContext} from "react"
 import { Button } from "antd";
 import { Navigate } from 'react-router-dom';
 import "./Payment2.css";
 import { Link } from 'react-router-dom';
+ import { CartContext } from "../../context/cartContext";
+
 
 export const CartInfo =() => {
+
+   
+
+  const { cart } = useContext(CartContext);
+
+//   const [cartTotal, setCartTotal] = useState(0);
+
+  let arr = cart;
+   console.log(arr)
+
+  var total = 0;
+  for (let t = 0; t < arr.length; t++) {
+      let k=0
+      if(arr[t]==NaN)
+      {
+         k=0
+      }
+      else{
+          k=+arr[t].price
+      }
+    total += k
+  }
 
     // const [address,setaddress] = useState([])
     // useEffect(()=>{
@@ -142,11 +166,11 @@ _id: "627659e2c6f3dcdc37f5ddb5" */}
                 <div>
                     <div style={{ display: "flex", justifyContent: "space-between"}}>
                         <p>Items order:</p>
-                        <p>23</p>
+                        <p>$ {total}</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <p>Tax Total:</p>
-                        <p>23</p>
+                        <p>$ 0.00</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between" ,marginBottom:"5px"}}>
                         <p>Shipping</p>
@@ -156,7 +180,7 @@ _id: "627659e2c6f3dcdc37f5ddb5" */}
                     <div className="order">
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <h3 >Order Total:</h3>
-                            <p style={{ float:"left"}}> 56</p>
+                            <p style={{ float:"left"}}> $ {total}</p>
                         </div>
                         <div style={{display: "flex"}}>
                             {/* <div> */}

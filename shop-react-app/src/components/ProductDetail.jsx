@@ -3,7 +3,13 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom"; 
  import { useNavigate } from "react-router-dom";
+ 
+
+
 import "./ProductDetails.css"
+
+
+//Icons
 import E from "../Images/icons8-e-50.png"
 import facebook from "../Images/icons8-facebook-50.png"
 import twitter from"../Images/icons8-twitter-50.png"
@@ -12,12 +18,16 @@ import email from "../Images/icons8-mail-50.png"
 import pen from "../Images/icons8-pen-50.png"
 import gift from "../Images/icons8-gift-50.png"
 import pintrest from "../Images/icons8-pinterest-50.png"
- 
 import save from "../Images/icons8-save-30.png"
 import dollar from "../Images/icons8-us-dollar-24.png"
+//Icons
+
+import { CartContext } from "../context/cartContext"
+import { useContext } from "react"
+
 export const ProductDetail = () => {
     let {name,id}=useParams()
-    
+    const {getCart}=useContext(CartContext)
     const navigate=useNavigate()
     const [data, setData] = useState({});
     const[likedata,setlikeData]=useState([])
@@ -41,18 +51,30 @@ export const ProductDetail = () => {
         getData();
         getLikeData();
     }, []);
-    const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
+    // const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
     const postData=async(el)=>{
-         
-        await fetch("https://shop-clone-api.herokuapp.com/carts",{
-            method:"POST",
-           
-            headers:{
-                "Content-Type":"application/json",
-                Authorization: `Bearer ${Authtoken}`
-            },
-            body:JSON.stringify(el)
-        })
+        const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
+        if(!Authtoken){
+            navigate("/signin",{replace:false})
+            alert("Please login first")
+            return
+        }
+         try {
+            await fetch("https://shop-clone-api.herokuapp.com/carts",{
+                method:"POST",
+               
+                headers:{
+                    "Content-Type":"application/json",
+                    Authorization: `Bearer ${Authtoken}`
+                },
+                body:JSON.stringify(el)
+            })
+            getCart()
+            alert("Added to cart")
+         } catch (error) {
+             console.log(error)
+         }
+       
     }
     function AddtoCart(el){
     
@@ -68,8 +90,9 @@ export const ProductDetail = () => {
                 sizeorigin: el.sizeorigin||0
 
             }
-        //    console.log(postingProd)
+      
          postData(postingProd)
+        
     }
     function ProductDetailPage(id){
         
@@ -77,7 +100,7 @@ export const ProductDetail = () => {
         window. location. reload()
     }
     return <main >
-        <section className="main_div">
+        <section className="Prod_detail_main_div">
             <div className="prodImage"><img src={data.imageurl} alt={data.Name} /></div>
             <div className="right_div">
                 <div className="firstdiv">
@@ -116,7 +139,7 @@ export const ProductDetail = () => {
                                         <button onClick={()=>AddtoCart(data)} className="Addtocartbtn">Add to Cart</button>
                                     </div>
                                     <div className="zip_calculate">
-                                        <input type="number" placeholder="zip code" />
+                                        <input  className="Zip_Code_input"type="number" placeholder="zip code" />
                                         <div className="calculate"><button className="calculate-Shipping">Calculate Shipping</button></div>
                                     </div>
                                     <div><p  className="paragraph">MSK Womens Embellished 3/4 Sleeve Point Collar Short Shift Wear To Work Dress</p></div>
@@ -161,7 +184,7 @@ export const ProductDetail = () => {
          </div>
          <div className="product_info">
                                 <h1>Product Information</h1>
-                                <div className="underline"></div>
+                                <hr />
                                 <p>SKU: P2587561</p>
                                 <h4 style={{fontWeight:700}}>Palladium Mens Pampa Lite Leather Waterproof Hiking Boots</h4>
                                 

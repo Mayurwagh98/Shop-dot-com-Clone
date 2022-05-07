@@ -4,19 +4,21 @@ import axios from "axios";
 import { useState } from "react";
 import { Typography } from "antd";
 const { Title } = Typography;
+import { useNavigate } from "react-router-dom";
 export const Signin = () => {
+  const navigate=useNavigate()
   const [user, setuser] = useState({});
 
   function handle(e) {
     e.preventDefault();
-    console.log(user);
+    // console.log(user);
 
     axios
       .post("https://shop-clone-api.herokuapp.com/login", { ...user })
       .then(function (response) {
         let Authtoken=response.data.token
         localStorage.setItem("Authtoken",JSON.stringify(Authtoken))
-         
+         navigate(-1,{replace:true})
         //alert(response.data.meaasge)
       })
       .catch(function (error) {
@@ -33,7 +35,7 @@ export const Signin = () => {
 
   return (
     <>
-      <div className="main_div">
+      <div className="Sign_main_div">
         <div className="signin_div">
           <Title level={1}>Log in</Title>
 

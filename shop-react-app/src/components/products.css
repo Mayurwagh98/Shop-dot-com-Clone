@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-
+   position: absolute;
+    right: 0;
 }
 .products>section:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -19,6 +20,12 @@
     height:650px;
     position: relative;
     margin: 10px;
+}
+.Bigger_Section_Product{
+    display: flex;
+}
+.filter-shorting-left-side-main{
+    width: 100%;
 }
 .crossedprice{
 text-decoration: line-through;
@@ -80,11 +87,59 @@ text-decoration: line-through;
     width: 193.160px;
     cursor: pointer;
 }
+.pagination_Section{
+    bottom: 0;
+    margin-left: 50%;
+    position: absolute;
+    /* margin: 2%; */
+}
+.pagination_Section>*{
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.pagination_Section>button:hover{
+    color:#414467;
+    font-weight: 700;
+}
+.filter_type {
+    border: none;
+    background-color: transparent;
+}
+ .sort_section{
+     display: flex;
+     margin: 0% 0% 0% 2%;
+ }
+ .sort_section>*{
+    margin: 0px 0px 0px 10px;
+    
+    
+ }
+.filter_Section_type{
+    width: auto;
+    margin: 2%;
+     
+}
+.filter_type_data>div>p:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+ 
+.historyProductPage{
+    margin: 0% 0% 0% 2%;
+}
 @media only screen and (max-width: 600px) {
     .products{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
+    }
+    .filter-shorting-left-side-main>div{
+        display: flex;
+    }
+    .Bigger_Section_Product{
+        display: block;
     }
    
   }

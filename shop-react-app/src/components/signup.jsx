@@ -27,26 +27,15 @@ export const Signup = () => {
           console.log(error);
           alert("Email Already Exists");
         });
-      //     getda()
-      //    async function getda() {
-      //      let res = await fetch("http://localhost:5700/register", {
-      //        method: "POST",
-      //        body: JSON.stringify(user),
-      //        headers: {
-      //          "Content-Type": "application/json",
-      //        },
-      //      });
-      //      let data = await res.json();
-      //      console.log(data);
-      //    }
+     
     }
   }
   const getInputData = (e) => {
-    // console.log(e.target.value);
+   
     const { name, value } = e.target;
     setuser({ ...user, [name]: value });
   };
-  //console.log(user)
+   
 
   return (
     <>

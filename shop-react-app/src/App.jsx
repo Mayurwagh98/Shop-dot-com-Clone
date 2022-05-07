@@ -6,12 +6,26 @@ import { ProductDetail } from "./components/ProductDetail";
 import { Navbar } from "./components/navbar";
 import { Signup } from "./components/signup";
 import {Signin} from "./components/signin"
+import { Home } from "./HOme";
+
+import { PrivateRoute } from "./components/PrivateRoute";
+import { useContext } from "react";
+import { AuthContext } from "./context/AuthContext";
+
 const App = () => {
+  
+  
  return(
    <div className="App">
+     <Navbar/>
       <Routes>
-        <Route path="/" element={<Navbar/>}></Route>
-        <Route path="/cart" element={<Cart/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/cart" element={
+        < PrivateRoute>
+          <Cart/>
+          </PrivateRoute>
+       
+        }></Route>
         <Route path="/products/:name" element={<Products/>}></Route>
         <Route path="/product/:name/:id" element={<ProductDetail/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>

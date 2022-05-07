@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState,useEffect, useContext} from "react"
 import { Button } from "antd";
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import "./Payment2.css";
 import { Link } from 'react-router-dom';
  import { CartContext } from "../../context/cartContext";
@@ -63,8 +63,10 @@ export const CartInfo =() => {
    // console.log(address,"murli");
   // console.log(data)
 
+  const nav = useNavigate()
+
     const GotoCart=()=>{
-        <Navigate to={"/"} />
+        nav("/payment1")
     }
 
 
@@ -80,7 +82,7 @@ export const CartInfo =() => {
          <div className='left-divmain'>
          <div className="left_div">
             <div className="payment_method1" style={{ display: "flex", marginLeft: '20px' }}>
-                    <input type="radio" style={{ width: "20px", height: "20px" ,paddingTop:"15px"}} onClick={GotoCart} />
+                    <input type="radio" style={{ width: "20px", height: "20px" ,paddingTop:"15px"}} onClick={()=>(GotoCart())} />
                     <p style={{ fontSize: "19px",paddingTop:"5px",marginLeft:"10px" }}>Enter Payment method</p>
                     <img src="https://img.shop.com/Image/local/images/cc/amex.jpg" alt="" />
                     <img src="https://img.shop.com/Image/local/images/cc/discover.jpg" alt="" />

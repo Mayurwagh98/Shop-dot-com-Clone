@@ -13,6 +13,7 @@ import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
  import {Address}  from "./components/Address/Address"
 import {Footer} from "./components/Footer/Footer"
+import { AddressDetails } from "./components/AddressDetail/AddressDetails";
 const App = () => {
   
   
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/product/:name/:id" element={<ProductDetail/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/signin"  element={<Signin/>}></Route>
+      <Route path="/addressDetails" element={<AddressDetails/>}></Route>
      </Routes>
      {/* <Footer/> */}
    </div>

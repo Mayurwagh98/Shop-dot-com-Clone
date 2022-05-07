@@ -12,19 +12,19 @@ export const AddressDetails = () => {
     console.log(props)
  
     try {
-      let token = JSON.parse(localStorage.getItem("token"));
-      console.log(token);
+      let Authtoken = JSON.parse(localStorage.getItem("Authtoken"));
+      console.log(Authtoken);
 
       let data = await fetch(`https://shop-clone-api.herokuapp.com/addresses/:${props}`, {
         method: "DELETE",
 
         headers: {
-          Authorization: `Bearer ${token}`,
+          Authorization: `Bearer ${Authtoken}`,
           "Content-Type": "application/json",
         },
       });
       data = await data.json();
-      console.log(data);
+      
       getData()
     } catch (error) {
       console.log(error);
@@ -34,14 +34,14 @@ export const AddressDetails = () => {
 
 async function getData(){
   try {
-         let token = JSON.parse(localStorage.getItem("token"));
-         console.log(token);
+         let Authtoken = JSON.parse(localStorage.getItem("Authtoken"));
+         
           
          let data= await fetch("https://shop-clone-api.herokuapp.com/addresses", {
             method: "GET",
       
             headers: {
-              Authorization: `Bearer ${token}`,
+              Authorization: `Bearer ${Authtoken}`,
               "Content-Type": "application/json",
             },
           });

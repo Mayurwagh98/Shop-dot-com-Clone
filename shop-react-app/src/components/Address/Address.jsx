@@ -19,8 +19,8 @@ export const Address = (props) => {
   async function handle(e) {
     e.preventDefault();
     console.log(address);
-    let token=JSON.parse(localStorage.getItem("token"))
-     console.log(token)
+    let Authtoken=JSON.parse(localStorage.getItem("Authtoken"))
+     console.log(Authtoken)
     let addr = JSON.stringify(address);
       let saveAddress = async () => {
         try {
@@ -30,7 +30,7 @@ export const Address = (props) => {
             method: "POST",
             body: addr,
             headers: {
-              Authorization: `Bearer ${token}`,
+              Authorization: `Bearer ${Authtoken}`,
               "Content-Type": "application/json",
             },
           });

@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom"
 import "./products.css"
 import {nanoid} from"nanoid"
 import { useParams } from "react-router-dom"
-import arrow from "../Images/icons8-chevron-right-24.png"
+import arrow from "../../Images/icons8-chevron-right-24.png"
  
  import { Select } from 'antd';
- import { CartContext } from "../context/cartContext"
+ import { CartContext } from "../../context/cartContext"
  import { useContext } from "react"
 const { Option } = Select;
 
@@ -16,10 +16,8 @@ function handleChange(value) {
 }
 
 
-
-
-
 export const Products=()=>{
+  
     const {name}=useParams()
    const navigate=useNavigate()
    
@@ -50,13 +48,16 @@ export const Products=()=>{
         let data=await res.json()
         setData(data.product) 
         setfilteredData(data.product)
-        
+        // window. location. reload()
     }
+    
    
     // console.log(filteredData)
     useEffect(()=>{
         getProducts()
+
         setfilteredData(data)
+        
     },[page])  
 
     function filterData(para){
@@ -69,6 +70,7 @@ export const Products=()=>{
             }
         })
         setfilteredData(filteredDaata)
+
     }
    
     //Adding to cart

@@ -1,4 +1,4 @@
-import { CartSlide } from "./CartSlide"
+import { CartSlide } from "./CartSlide/CartSlide"
 import { useNavigate } from "react-router-dom"
 import { nanoid } from "nanoid"
 import { CartContext } from "../context/cartContext"

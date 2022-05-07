@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "antd";
 import axios from "axios";
-import "../components/signup.css"
+import "./signup.css"
 
 export const Signup = () => {
   const [user, setuser] = useState({});

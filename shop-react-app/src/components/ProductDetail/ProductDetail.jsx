@@ -10,22 +10,23 @@ import "./ProductDetails.css"
 
 
 //Icons
-import E from "../Images/icons8-e-50.png"
-import facebook from "../Images/icons8-facebook-50.png"
-import twitter from"../Images/icons8-twitter-50.png"
-import t from "../Images/icons8-t-lowercase-26.png"
-import email from "../Images/icons8-mail-50.png"
-import pen from "../Images/icons8-pen-50.png"
-import gift from "../Images/icons8-gift-50.png"
-import pintrest from "../Images/icons8-pinterest-50.png"
-import save from "../Images/icons8-save-30.png"
-import dollar from "../Images/icons8-us-dollar-24.png"
+import E from "../../Images/icons8-e-50.png"
+import facebook from "../../Images/icons8-facebook-50.png"
+import twitter from"../../Images/icons8-twitter-50.png"
+import t from "../../Images/icons8-t-lowercase-26.png"
+import email from "../../Images/icons8-mail-50.png"
+import pen from "../../Images/icons8-pen-50.png"
+import gift from "../../Images/icons8-gift-50.png"
+import pintrest from "../../Images/icons8-pinterest-50.png"
+import save from "../../Images/icons8-save-30.png"
+import dollar from "../../Images/icons8-us-dollar-24.png"
 //Icons
 
-import { CartContext } from "../context/cartContext"
+import { CartContext } from "../../context/cartContext"
 import { useContext } from "react"
 
 export const ProductDetail = () => {
+   
     let {name,id}=useParams()
     const {getCart}=useContext(CartContext)
     const navigate=useNavigate()

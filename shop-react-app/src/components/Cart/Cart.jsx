@@ -1,7 +1,7 @@
  
 import { useEffect,useState } from "react"
  import { useNavigate } from "react-router-dom"
-import { CartContext } from "../context/cartContext"
+import { CartContext } from "../../context/cartContext"
 import { useContext } from "react"
 import "./Cart.css"
 export const Cart=()=>{
@@ -74,7 +74,9 @@ export const Cart=()=>{
     
   }
   
-     
+     function CheckOutAddresspage(){
+         navigate("/address",{replace:true})
+     }
     return <main>
         <h1 style={{fontWeight:700,margin:"1% 1%"}}>Your Cart</h1>
 
@@ -121,7 +123,7 @@ export const Cart=()=>{
                             <div className="calculate"><button className="calculate-Shipping">Estimate Shipping</button></div>
                      </div>
                     <p onClick={()=>{navigate("/")}}> Continue Shopping</p>
-                     <button className="Addtocartbtn">Proceed to checkout </button>
+                     <button onClick={CheckOutAddresspage} className="Addtocartbtn">Proceed to checkout </button>
 
                      <p style={{background:"white",padding:"5px",width:"150px",marginLeft:"7%"}}>Or checkout with</p>
                      <div className="otherWaytocheckout">

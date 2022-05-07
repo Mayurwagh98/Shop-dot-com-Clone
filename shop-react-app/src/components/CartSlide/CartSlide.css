@@ -1,4 +1,4 @@
-.cartSlidePaymentOptionbtn {
+.cartSlidePaymentOptionbtn{
     padding: 5px 10px;
     background: white;
     border: .5px solid;
@@ -8,7 +8,7 @@
     font-weight:700
 }
  
-.cartSlidePaymentOptionbtn:hover{
+.cartSlidePaymentOptionbtn:hover,.CartSlideNavbarBtn:hover{
 background-color: #414467;
 color: white;
 cursor: pointer;
@@ -41,4 +41,12 @@ cursor: pointer;
 }
 .cartOnCartSlide{
     width: 100%;
+}
+.CartSlideNavbarBtn{
+    
+    border: none;
+     
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight:700
 }

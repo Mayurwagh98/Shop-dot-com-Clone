@@ -1,12 +1,13 @@
 import { Layout } from "antd";
-import { Navbar } from "../SimpleNavbar/SimpleNavbar";
-import { SimpleFooter } from "../SimpleFooter/SimpleFooter";
+// import { Navbar } from "../SimpleNavbar/SimpleNavbar";
+// import { SimpleFooter } from "../SimpleFooter/SimpleFooter";
 import { useState } from "react";
 import "./Address.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
 export const Address = () => {
+
   const { Header, Content, Footer } = Layout;
   const [address, setaddress] = useState({});
   const getInputField = (e) => {

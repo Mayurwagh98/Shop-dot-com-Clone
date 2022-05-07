@@ -3,10 +3,10 @@ import 'antd/dist/antd.css';
 import { Drawer, Button, Space, Divider } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import "./CartSlide.css"
-import { CartContext } from "../context/cartContext"
+import { CartContext } from "../../context/cartContext"
 import { useContext } from "react"
 export const CartSlide = () => {
-  const {cart}=useContext(CartContext)  
+  const {cart,getCart}=useContext(CartContext)  
   const navigate=useNavigate()
   const [visible, setVisible] = useState(false);
   const [size, setSize] = useState();
@@ -28,6 +28,25 @@ export const CartSlide = () => {
   const onClose = () => {
     setVisible(false);
   };
+  function RemoveFromCart(id){
+    const Authtoken= JSON.parse(localStorage.getItem("Authtoken"))
+    if(!JSON.parse(localStorage.getItem("Authtoken"))){
+        navigate("/signin",{replace:false})
+        alert("Please login first")
+        return
+    }
+    else{
+        fetch(`https://shop-clone-api.herokuapp.com/carts/${id}`,{
+        method:"DELETE",
+        headers:{
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${Authtoken}`,
+        }
+        })
+        getCart()
+    }
+    
+  }
 function OpenCart(){
   // if(!JSON.parse(localStorage.getItem("Authtoken"))){
   //   navigate("/signin",{replace:false}),onClose()
@@ -43,7 +62,7 @@ function OpenCart(){
     <>
       <Space>
         
-        <button onClick={showLargeDrawer}>
+        <button className='CartSlideNavbarBtn' onClick={showLargeDrawer}>
          Cart
         </button>
       </Space>

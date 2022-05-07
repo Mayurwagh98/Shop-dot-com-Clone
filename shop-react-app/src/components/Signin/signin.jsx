@@ -3,9 +3,17 @@ import "./signin.css"
 import axios from "axios";
 import { useState } from "react";
 import { Typography } from "antd";
-const { Title } = Typography;
+
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthContext";
 import { useNavigate } from "react-router-dom";
+
+
+
+const { Title } = Typography;
 export const Signin = () => {
+  const {Auth,handleAuth}=useContext(AuthContext)
+  // console.log(handleAuth)
   const navigate=useNavigate()
   const [user, setuser] = useState({});
 
@@ -18,6 +26,9 @@ export const Signin = () => {
       .then(function (response) {
         let Authtoken=response.data.token
         localStorage.setItem("Authtoken",JSON.stringify(Authtoken))
+        handleAuth(true)
+        console.log(Auth)
+        window. location. reload()
          navigate(-1,{replace:true})
         //alert(response.data.meaasge)
       })

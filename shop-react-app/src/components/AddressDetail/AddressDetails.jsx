@@ -60,13 +60,14 @@ async function getData(){
   useEffect(()=>{
     getData()
   },[])
+  
   const { Header, Content, Footer } = Layout;
   return (
     <div>
       <Layout>
-        <Header>
+        {/* <Header>
           <Navbar />
-        </Header>
+        </Header> */}
         <Content>
           <div className="container">
             <div className="header">
@@ -170,7 +171,7 @@ async function getData(){
                 <div className="green"></div>
                 <br />
                 <div>
-                  <button id="submit">Continue Checkout</button>
+                  <Link to="/shipping" id="submit">Continue Checkout</Link>
                 </div>
                 <br />
                 <div className="font">

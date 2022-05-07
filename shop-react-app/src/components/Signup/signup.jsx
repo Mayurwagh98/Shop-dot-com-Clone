@@ -1,32 +1,37 @@
 //import "./signup.css"
 import { useState, useEffect } from "react";
+import {useNavigate} from "react-router-dom";
 import { Button } from "antd";
 import axios from "axios";
 import "./signup.css"
 
 export const Signup = () => {
   const [user, setuser] = useState({});
+  const nav = useNavigate();
+
   function handle(e) {
     e.preventDefault();
     console.log(user);
     if (user.confirm !== user.password) {
       alert("password and confirm password not same");
-    } else {
+    } 
+    else {
       axios
         .post("https://shop-clone-api.herokuapp.com/register", { ...user })
         .then(function (response) {
           console.log(response);
           //alert(response.data.meaasge)
-          if (response.data.status == true) {
-            alert("Account created successfully");
-          } else {
-            alert("Email.Already Exists");
-          }
+          // if (response.data.status == true) {
+          //   alert("Account created successfully");
+          // } else {
+          //   alert("Email.Already Exists");
+          // }
+          nav("/signin")
         })
-        .catch(function (error) {
-          console.log(error);
-          alert("Email Already Exists");
-        });
+        // .catch(function (error) {
+        //   console.log(error);
+        //   alert("Email Already Exists");
+        // });
      
     }
   }

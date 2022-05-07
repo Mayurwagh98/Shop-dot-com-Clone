@@ -57,9 +57,9 @@ export const Address = (props) => {
   return (
     <div>
       <Layout>
-        <Header>
+        {/* <Header>
           <Navbar />
-        </Header>
+        </Header> */}
         <Content>
           <div>
             <br />

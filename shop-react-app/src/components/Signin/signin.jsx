@@ -35,6 +35,7 @@ export const Signin = () => {
       .catch(function (error) {
         console.log(error);
         alert("Email or Password wrong");
+
       });
   }
 

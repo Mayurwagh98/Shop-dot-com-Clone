@@ -14,6 +14,12 @@ import { AuthContext } from "./context/AuthContext";
  import {Address}  from "./components/Address/Address"
 import {Footer} from "./components/Footer/Footer"
 import { AddressDetails } from "./components/AddressDetail/AddressDetails";
+import { Shipping } from "./components/Shipping/Shipping";
+import {CardAddress} from "./components/Payment/Payment"
+import { CartInfo } from "./components/Payment2/Payment2";
+
+
+
 const App = () => {
   
   
@@ -30,6 +36,9 @@ const App = () => {
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/signin"  element={<Signin/>}></Route>
       <Route path="/addressDetails" element={<AddressDetails/>}></Route>
+      <Route path="/shipping" element={<Shipping/>}></Route>
+      <Route path="/payment1" element={<CardAddress/>}></Route>
+      <Route path="/payment2" element={<CartInfo/>}></Route>
      </Routes>
      {/* <Footer/> */}
    </div>

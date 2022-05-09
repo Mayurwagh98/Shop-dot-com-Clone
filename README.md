@@ -8,7 +8,7 @@ This project is a one to one clone of the online e-commerce website of "SHOP.COM
 
 ## Routes (API)
 ```
-http://localhost:3000/  - Home route
+http://localhost:3000  - Home route
 
 http://localhost:3000/products  - All Products Route
 

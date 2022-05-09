@@ -1,6 +1,7 @@
 # Shop-Clone
 
 SHOP.COM Clone done during Unit 5 Construct Week of Masai School.
+
 ![Screenshot (732)](https://user-images.githubusercontent.com/69896733/167409415-735d6327-7448-443d-a45b-e29d46e45788.png)
 
 

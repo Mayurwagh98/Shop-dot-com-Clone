@@ -56,10 +56,6 @@ http://localhost:3000/payment - Payment Route
 ## Deployment Link
 https://shop-com.netlify.app
 
-## Contributors
-<a href = "https://github.com/Sayli555/Shop-Clone/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = Sayli555/Shop-Clone"/>
-</a>
 
 
 

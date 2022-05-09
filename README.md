@@ -31,7 +31,7 @@ http://localhost:3000/payment - Payment Route
 
 - Login and Signup Pages <br/>
 - Login Credential Validation <br/>
-*Landing Page <br /> 
+* Landing Page <br /> 
 
 -Fully Functional Interactive Navigation Bar
 

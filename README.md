@@ -27,7 +27,7 @@ http://localhost:3000/addressDetails - Address Details Route
 http://localhost:3000/payment - Payment Route 
 ```
 
-# Code Features
+## Code Features
 -Login and Signup Pages
 
 -Login Credential Validation

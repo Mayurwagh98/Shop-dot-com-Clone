@@ -58,7 +58,7 @@ https://shop-com.netlify.app
 
 ## Contributors
 <a href = "https://github.com/Sayli555/Shop-Clone/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = Mayurwagh98/Shop-Clone"/>
+  <img src = "https://contrib.rocks/image?repo = Sayli555/Shop-Clone"/>
 </a>
 
 

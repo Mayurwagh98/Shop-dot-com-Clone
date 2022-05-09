@@ -57,7 +57,9 @@ http://localhost:3000/payment - Payment Route
 https://shop-com.netlify.app
 
 ## Contributors
-<a href="https://github.com/tej-p"><img src="https://avatars.githubusercontent.com/u/95894706?v=4" title="Tejaswini " width="80" height="80" border-radius = "50%"></a>
+<a href="https://github.com/remarkablemark/html-react-parser/graphs/contributors">
+  <img src="https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false">
+</a>
 
 
 

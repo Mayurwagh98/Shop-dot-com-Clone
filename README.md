@@ -57,8 +57,8 @@ http://localhost:3000/payment - Payment Route
 https://shop-com.netlify.app
 
 ## Contributors
-<a href="https://github.com/remarkablemark/html-react-parser/graphs/contributors">
-  <img src="https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false">
+<a href = "https://github.com/Sayli555/Shop-Clone/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = Mayurwagh98/Shop-Clone"/>
 </a>
 
 

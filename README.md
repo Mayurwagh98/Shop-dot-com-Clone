@@ -57,7 +57,7 @@ http://localhost:3000/payment - Payment Route
 https://shop-com.netlify.app
 
 ## Contributors
-https://github.com/Mayurwagh98
+https://avatars.githubusercontent.com/u/95894706?s=32&v=4
 
 
 

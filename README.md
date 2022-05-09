@@ -29,11 +29,9 @@ http://localhost:3000/payment - Payment Route
 
 ## Code Features
 
-- Login and Signup Pages
-
--Login Credential Validation
-
--Landing Page 
+- Login and Signup Pages <br/>
+- Login Credential Validation <br/>
+*Landing Page <br /> 
 
 -Fully Functional Interactive Navigation Bar
 

@@ -6,20 +6,29 @@ This project is a one to one clone of the online e-commerce website of "SHOP.COM
 
 # Routes (API)
 ```
-http://localhost:3000/  - Home route <br />
-http://localhost:3000/products  - All Products Route <br />
-http://localhost:3000/product/:name/:id - Single Product Route <br />
-http://localhost:3000/cart - Cart Route <br />
-http://localhost:3000/signup - Signup Route <br />
-http://localhost:3000/signin - Singin Route <br />
-http://localhost:3000/addressDetails - Address Details Route <br/> 
-http://localhost:3000/shipping - Shipping Route <br/>
-http://localhost:3000/addressDetails - Address Details Route <br /> 
-http://localhost:3000/payment - Payment Route <br />
+http://localhost:3000/  - Home route
+
+http://localhost:3000/products  - All Products Route
+
+http://localhost:3000/product/:name/:id - Single Product Route
+
+http://localhost:3000/cart - Cart Route
+
+http://localhost:3000/signup - Signup Route
+
+http://localhost:3000/signin - Singin Route 
+
+http://localhost:3000/addressDetails - Address Details Route
+
+http://localhost:3000/shipping - Shipping Route 
+
+http://localhost:3000/addressDetails - Address Details Route 
+
+http://localhost:3000/payment - Payment Route 
 ```
 
 # Code Features
-Login and Signup Pages
+-Login and Signup Pages
 Login Credential Validation
 Landing Page 
 Fully Functional Interactive Navigation Bar

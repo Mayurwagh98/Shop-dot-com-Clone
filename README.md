@@ -29,15 +29,24 @@ http://localhost:3000/payment - Payment Route
 
 # Code Features
 -Login and Signup Pages
-Login Credential Validation
-Landing Page 
-Fully Functional Interactive Navigation Bar
-Product Section based on Categories
-Sort Feature
-Filter Feature
-Search Option
-Cart Feature
-Payment Checkout
+
+-Login Credential Validation
+
+-Landing Page 
+
+-Fully Functional Interactive Navigation Bar
+
+-Product Section based on Categories
+
+-Sort Feature
+
+-Filter Feature
+
+-Search Option
+
+-Cart Feature
+
+-Payment Checkout
 
 # Technologies Used
 HyperText Markup Language

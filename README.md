@@ -1,5 +1,7 @@
 # Shop-Clone
 SHOP.COM Clone done during Unit 5 Construct Week of Masai School.
+![Screenshot (732)](https://user-images.githubusercontent.com/69896733/167409415-735d6327-7448-443d-a45b-e29d46e45788.png)
+
 
 ## Abstract
 This project is a one to one clone of the online e-commerce website of "SHOP.COM" which was done as a part of Masai School Construct Week. The project includes the Landing page, Login and Signup page, Product pages for Men, Women, and Jewellery. The project is truly interactive and functional with features such as Login validation, Sorting product based on keys, and Filter based on categories, Cart feature and Payment checkout.

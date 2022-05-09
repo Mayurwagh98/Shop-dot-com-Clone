@@ -16,7 +16,7 @@ http://localhost:3000/addressDetails - Address Details Route <br/>
 http://localhost:3000/shipping - Shipping Route <br/>
 http://localhost:3000/addressDetails - Address Details Route <br /> 
 http://localhost:3000/payment - Payment Route <br />
-`
+```
 
 # Code Features
 Login and Signup Pages

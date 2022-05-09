@@ -57,7 +57,7 @@ http://localhost:3000/payment - Payment Route
 https://shop-com.netlify.app
 
 ## Contributors
-<a href="https://github.com/ngryman"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="ngryman" width="80" height="80"></a>
+<a href="https://github.com/tej-p"><img src="https://avatars.githubusercontent.com/u/95894706?v=4" title="Tejaswini " width="80" height="80" border-radius = "50%"></a>
 
 
 
